@@ -112,7 +112,7 @@
       <Link>TestHelper.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\LogoFX.Client.Testing.Shared.Platform.rd.xml" />
+    <EmbeddedResource Include="Properties\LogoFX.Client.Testing.Shared.Platform.UWP.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\LogoFX.Client.Testing.Infra.Platform\uwp\LogoFX.Client.Testing.Infra.Platform.UWP.csproj">
