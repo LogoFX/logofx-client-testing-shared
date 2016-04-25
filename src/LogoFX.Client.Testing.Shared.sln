@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Infra.Platform.NET45", "LogoFX.Client.Testing.Infra.Platform\net45\LogoFX.Client.Testing.Infra.Platform.NET45.csproj", "{67E5E2E9-A69E-438D-BD6D-E462A42D267C}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Shared.Platform.NET45", "LogoFX.Client.Testing.Shared.Platform\net45\LogoFX.Client.Testing.Shared.Platform.NET45.csproj", "{B939ECBB-3316-4F61-B1F3-1D544543CF5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Shared.Platform.UWP", "LogoFX.Client.Testing.Shared.Platform\uwp\LogoFX.Client.Testing.Shared.Platform.UWP.csproj", "{87D07FE3-849F-4ADD-AD30-249A3D488BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Infra.Platform.WIN81", "LogoFX.Client.Testing.Infra.Platform\win81\LogoFX.Client.Testing.Infra.Platform.WIN81.csproj", "{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Shared.Platform.WIN81", "LogoFX.Client.Testing.Shared.Platform\win81\LogoFX.Client.Testing.Shared.Platform.WIN81.csproj", "{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,38 @@ Global
 		{87D07FE3-849F-4ADD-AD30-249A3D488BC5}.Release|x64.Build.0 = Release|x64
 		{87D07FE3-849F-4ADD-AD30-249A3D488BC5}.Release|x86.ActiveCfg = Release|x86
 		{87D07FE3-849F-4ADD-AD30-249A3D488BC5}.Release|x86.Build.0 = Release|x86
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|ARM.Build.0 = Debug|ARM
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|x64.ActiveCfg = Debug|x64
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|x64.Build.0 = Debug|x64
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|x86.ActiveCfg = Debug|x86
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Debug|x86.Build.0 = Debug|x86
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|ARM.ActiveCfg = Release|ARM
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|ARM.Build.0 = Release|ARM
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|x64.ActiveCfg = Release|x64
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|x64.Build.0 = Release|x64
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|x86.ActiveCfg = Release|x86
+		{B58CE6D1-DB30-4078-8C80-4C8DC27F24C2}.Release|x86.Build.0 = Release|x86
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|ARM.Build.0 = Debug|ARM
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|x64.ActiveCfg = Debug|x64
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|x64.Build.0 = Debug|x64
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|x86.ActiveCfg = Debug|x86
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Debug|x86.Build.0 = Debug|x86
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|ARM.ActiveCfg = Release|ARM
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|ARM.Build.0 = Release|ARM
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|x64.ActiveCfg = Release|x64
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|x64.Build.0 = Release|x64
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|x86.ActiveCfg = Release|x86
+		{FF0CB4D9-990B-4210-97F3-1EFAFE15D0DD}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

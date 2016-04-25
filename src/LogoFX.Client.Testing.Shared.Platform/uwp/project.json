@@ -1,6 +1,6 @@
 ﻿{
   "dependencies": {
-    "LogoFX.Client.Core": "1.0.7",
+    "LogoFX.Client.Core": "1.0.8",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "Solid.Practices.Scheduling": "1.0.7"
   },
