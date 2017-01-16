@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Windows.Threading;
-#if NETFX_CORE || WINDOWS_UWP
-using Windows.UI.Core;
-#endif
 
 namespace LogoFX.Client.Testing.Infra
 {
@@ -29,24 +26,7 @@ namespace LogoFX.Client.Testing.Infra
         public void OnUiThread(Action action)
         {
             action();
-        }
-
-        /// <summary>
-        /// Executes the action on the calling thread.
-        /// </summary>
-        /// <param name="priority">Desired priority. Not in use.</param>
-        /// <param name="action">Action</param>
-        public void OnUiThread(
-#if NET45
-            DispatcherPriority
-#endif
-#if NETFX_CORE || WINDOWS_UWP
-            CoreDispatcherPriority
-#endif 
-            priority, Action action)
-        {
-            OnUiThread(action);
-        }
+        }        
 
         /// <summary>
         /// Initializes the dispatcher
@@ -54,23 +34,6 @@ namespace LogoFX.Client.Testing.Infra
         public void InitializeDispatch()
         {
             
-        }
-
-        /// <summary>
-        /// Begins the action on the calling thread.
-        /// </summary>
-        /// <param name="prio">Desired priority. Not in use.</param>
-        /// <param name="action">Action</param>
-        public void BeginOnUiThread(
-#if NET45
-            DispatcherPriority
-#endif
-#if NETFX_CORE || WINDOWS_UWP
-            CoreDispatcherPriority
-#endif
-            prio, Action action)
-        {
-            OnUiThread(action);
-        }
+        }        
     }
 }
