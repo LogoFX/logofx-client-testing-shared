@@ -1,2 +1,4 @@
 # logofx-client-testing-shared
-Ffacilities for writing client integration tests which run in the same thread.
+Facilities for writing client integration tests which run in the same thread.
+
+<img src=https://ci.appveyor.com/api/projects/status/github/logofx/logofx-client-testing-shared>
