@@ -32,10 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LogoFX.Client.Core, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LogoFX.Client.Core.Core.1.2.0-rc1\lib\net45\LogoFX.Client.Core.dll</HintPath>
+      <HintPath>..\..\packages\LogoFX.Client.Core.Core.1.2.0\lib\net45\LogoFX.Client.Core.dll</HintPath>
     </Reference>
     <Reference Include="Solid.Practices.Scheduling, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Solid.Practices.Scheduling.1.2.0-rc2\lib\net45\Solid.Practices.Scheduling.dll</HintPath>
+      <HintPath>..\..\packages\Solid.Practices.Scheduling.1.2.0\lib\net45\Solid.Practices.Scheduling.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,13 +52,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\LogoFX.Client.Testing.Infra\net45\LogoFX.Client.Testing.Infra.NET45.csproj">
       <Project>{DAEE1728-9A0C-4254-B251-4C4A84C55195}</Project>
       <Name>LogoFX.Client.Testing.Infra.NET45</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
