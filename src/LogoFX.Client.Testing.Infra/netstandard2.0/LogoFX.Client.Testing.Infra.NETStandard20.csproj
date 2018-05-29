@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Core.Core" Version="1.2.1-rc2" />
+    <PackageReference Include="LogoFX.Client.Core.Core" Version="1.2.1-rc3" />
   </ItemGroup>
 
 </Project>
