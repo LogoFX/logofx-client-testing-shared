@@ -8,13 +8,9 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\..\Bin\netstandard2.0\Release</OutputPath>
-    <DocumentationFile>..\..\Bin\netstandard2.0\Release\netstandard2.0\LogoFX.Client.Testing.Infra.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="..\src\SameThreadDispatch.cs" Link="SameThreadDispatch.cs" />
-  </ItemGroup>
+    <OutputPath>..\Bin\netstandard2.0\Release</OutputPath>
+    <DocumentationFile>..\Bin\netstandard2.0\Release\netstandard2.0\LogoFX.Client.Testing.Infra.xml</DocumentationFile>
+  </PropertyGroup>  
 
   <ItemGroup>
     <PackageReference Include="LogoFX.Client.Core.Core" Version="1.2.1-rc3" />
