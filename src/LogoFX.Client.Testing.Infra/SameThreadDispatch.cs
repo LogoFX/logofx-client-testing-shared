@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Windows.Threading;
+using System.Threading;
 
 namespace LogoFX.Client.Testing.Infra
 {

@@ -1,4 +1,4 @@
-﻿using System.Windows.Threading;
+﻿using System.Threading;
 using LogoFX.Client.Testing.Infra;
 using Solid.Practices.Scheduling;
 
