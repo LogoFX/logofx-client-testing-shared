@@ -10,27 +10,19 @@ namespace LogoFX.Client.Testing.Infra
     /// <seealso cref="IDispatch" />
     public class SameThreadDispatch : IDispatch
     {
-        /// <summary>
-        /// Begins the action on the calling thread.
-        /// </summary>
-        /// <param name="action">Action</param>
+        /// <inheritdoc />
         public void BeginOnUiThread(Action action)
         {
             OnUiThread(action);
         }
 
-        /// <summary>
-        /// Executes the action on the calling thread.
-        /// </summary>
-        /// <param name="action">Action</param>
+        /// <inheritdoc />
         public void OnUiThread(Action action)
         {
             action();
         }
 
-        /// <summary>
-        /// Initializes the dispatcher
-        /// </summary>
+        /// <inheritdoc />
         public void InitializeDispatch()
         {
 
