@@ -14,7 +14,7 @@
     <summary>LogoFX Client Testing Shared containing facilities for writing client unit and integration tests which run in the same thread.</summary>
     <releaseNotes>Updated dependent packages</releaseNotes>
     <dependencies>
-      <dependency id="Solid.Practices.Scheduling" version="2.3.0-rc1" />
+      <dependency id="Solid.Practices.Scheduling" version="2.3.0" />
       <dependency id="LogoFX.Client.Core.Core" version="2.2.0-rc2" />
     </dependencies>
   </metadata>

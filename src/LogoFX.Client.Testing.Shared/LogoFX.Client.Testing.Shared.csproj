@@ -13,7 +13,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="LogoFX.Client.Core.Core" Version="2.2.0-rc2" />
-    <PackageReference Include="Solid.Practices.Scheduling" Version="2.3.0-rc1" />
+    <PackageReference Include="Solid.Practices.Scheduling" Version="2.3.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LogoFX.Client.Testing.Infra\LogoFX.Client.Testing.Infra.csproj" />
