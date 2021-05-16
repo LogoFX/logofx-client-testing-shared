@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>LogoFX.Client.Tests.Shared</id>
+    <version>2.2.0-rc2</version>
+    <title>LogoFX.Client.Testing.Shared</title>
+    <authors>Gennady Verdel</authors>
+    <owners>Gennady Verdel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/LogoFX/logofx-client-testing-shared/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LogoFX/logofx-client-testing-shared</projectUrl>
+    <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
+    <description>LogoFX Client Testing Shared containing facilities for writing client unit and integration tests which run in the same thread.</description>
+    <summary>LogoFX Client Testing Shared containing facilities for writing client unit and integration tests which run in the same thread.</summary>
+    <releaseNotes>Updated dependent packages</releaseNotes>
+    <dependencies>
+      <dependency id="Solid.Practices.Scheduling" version="2.3.0" />
+      <dependency id="LogoFX.Client.Core.Core" version="2.2.0-rc2" />
+    </dependencies>
+  </metadata>
+</package>
