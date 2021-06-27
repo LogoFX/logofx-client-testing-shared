@@ -12,10 +12,12 @@
     <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
     <description>LogoFX Client Testing Shared containing facilities for writing client unit and integration tests which run in the same thread.</description>
     <summary>LogoFX Client Testing Shared containing facilities for writing client unit and integration tests which run in the same thread.</summary>
-    <releaseNotes>Updated dependent packages</releaseNotes>
+    <releaseNotes></releaseNotes>
     <dependencies>
       <dependency id="Solid.Practices.Scheduling" version="2.3.1" />
       <dependency id="LogoFX.Client.Core.Core" version="2.2.0" />
     </dependencies>
+    <tags>framework logofx dotnet</tags>
+    <repository type="Open Source" url="https://github.com/LogoFX/logofx-client-testing-shared" />
   </metadata>
 </package>
