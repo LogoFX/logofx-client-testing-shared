@@ -24,8 +24,6 @@ namespace LogoFX.Client.Testing.Infra
 
         /// <inheritdoc />
         public void InitializeDispatch()
-        {
-
-        }
+        {}
     }
 }
